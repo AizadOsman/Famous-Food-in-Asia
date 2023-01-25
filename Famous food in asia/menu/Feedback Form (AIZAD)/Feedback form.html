@@ -1,0 +1,305 @@
+<html>
+<head>
+<title>Feedback Form</title>
+<link rel="icon" href="form.png">
+<body background="formbg.png">
+</head>
+<body>
+<center>
+<font size="25" face="Century Gothic" style="bold" color="white"><b>Feedback Form</b></font>
+<hr style="width:25%">
+<font size="4" face="Century Gothic" style="bold" color="white">Please write your feedback below:</font>
+</center>
+<br>
+
+<form name="form1" method="post" action="mailto:aizad20019@gmail.com">
+<font size="4" face="Century Gothic" style="bold" color="white"><b>Section A: Personal Information</b></font><p>
+<font size="2" face="Century Gothic" style="bold" color="white">Please fill in the blanks with your personal information</font><p>
+<font size="4" color="#F9E79F">
+
+Full name :<p><input name="name" type="text"><p>
+Age :<p><input name="age" type="number" id="quantity" name="quantity" min="1" max="100"><p>
+
+Gender :<p>
+<form id="form1">
+<label for="Male" >Male</label>
+<input id="Male" name="selection" type=radio>
+<label for="Female">Female</label>
+<input id="Female" name="selection" type=radio>
+<!--<button type="reset">Empty</button>-->
+<p>
+
+<form action="/action_page.php" method="get">
+<label for="browser">State :<p></label>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+<option value="Perlis">
+<option value="Kedah">
+<option value="Pulau Pinang">
+<option value="Kelantan">
+<option value="Perak">
+<option value="Terengganu">
+<option value="Pahang">
+<option value="Selangor">
+<option value="Wilayah Persekutuan">
+<option value="Negeri Sembilan">
+<option value="Melaka">
+<option value="Johor">
+<option value="Sabah">
+<option value="Sarawak">
+  </datalist>
+
+<hr>
+<br>
+
+<font size="4" face="Century Gothic" style="bold" color="white"><b>Section B: User Evaluation</b></font><p>
+<font size="2" face="Century Gothic" style="bold" color="white">Please rate every website you have visited</font><br>
+<font size="2" face="Century Gothic" style="bold" color="white">State your evaluation based on the following parameters</font><p>
+
+<form method="post" action="#action-url">
+<label><b>THAI FOOD</b></label><br>
+<span class="star-rating">
+  <input type="radio" name="rating1" value="1"><i></i>
+  <input type="radio" name="rating1" value="2"><i></i>
+  <input type="radio" name="rating1" value="3"><i></i>
+  <input type="radio" name="rating1" value="4"><i></i>
+  <input type="radio" name="rating1" value="5"><i></i>
+</span>
+<p>
+
+<form method="post" action="#action-url">
+<label><b>MALAYSIAN CUISINE</b></label><br>
+  
+<span class="star-rating">
+  <input type="radio" name="rating2" value="1"><i></i>
+  <input type="radio" name="rating2" value="2"><i></i>
+  <input type="radio" name="rating2" value="3"><i></i>
+  <input type="radio" name="rating2" value="4"><i></i>
+  <input type="radio" name="rating2" value="5"><i></i>
+</span>
+<p>
+
+<form method="post" action="#action-url">
+<label><b>KOREAN DISHES</b></label><br>
+  
+<span class="star-rating">
+  <input type="radio" name="rating3" value="1"><i></i>
+  <input type="radio" name="rating3" value="2"><i></i>
+  <input type="radio" name="rating3" value="3"><i></i>
+  <input type="radio" name="rating3" value="4"><i></i>
+  <input type="radio" name="rating3" value="5"><i></i>
+</span>
+<p>
+
+<form method="post" action="#action-url">
+<label><b>JAPANESE FOODIES</b></label><br>
+  
+<span class="star-rating">
+  <input type="radio" name="rating4" value="1"><i></i>
+  <input type="radio" name="rating4" value="2"><i></i>
+  <input type="radio" name="rating4" value="3"><i></i>
+  <input type="radio" name="rating4" value="4"><i></i>
+  <input type="radio" name="rating4" value="5"><i></i>
+</span>
+<p>
+
+<form method="post" action="#action-url">
+<label>Overall rating</label><br>
+  
+<span class="star-rating">
+  <input type="radio" name="rating5" value="1"><i></i>
+  <input type="radio" name="rating5" value="2"><i></i>
+  <input type="radio" name="rating5" value="3"><i></i>
+  <input type="radio" name="rating5" value="4"><i></i>
+  <input type="radio" name="rating5" value="5"><i></i>
+</span>
+<p>
+
+<div class="clear"></div> 
+<label for="m_3189847521540640526commentText">Any other comments or suggestions :</label><br/><br/>
+<textarea cols="75" placeholder="Comment here..." name="commentText" rows="5" style="100%"></textarea><br>
+<br>
+  <div class="clear"></div> 
+<input type="submit" onclick="alert('You will be directed to your email page to submit this form.\nThank you for the feedback!')" value="Submit Feedback">
+</font>
+</form>
+</div>
+</body>
+
+<style>
+.feedback{
+    width: 100%;
+    max-width: 780px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.3);
+}
+
+.survey-hr{
+  margin:10px 0;
+  border: .5px solid #ddd;
+}
+
+.feedback form input,
+.feedback form textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.star-rating {
+   margin: 25px 0 0px;
+  font-size: 0;
+  white-space: nowrap;
+  display: inline-block;
+  width: 175px;
+  height: 35px;
+  overflow: hidden;
+  position: relative;
+  background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjREREREREIiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');
+  background-size: contain;
+}
+
+.star-rating i {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  z-index: 1;
+  background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjRkZERjg4IiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');
+  background-size: contain;
+}
+
+.star-rating input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  opacity: 0;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  position: relative;
+}
+
+.star-rating input:hover + i,
+.star-rating input:checked + i {
+  opacity: 1;
+}
+.star-rating i ~ i {
+  width: 40%;
+}
+.star-rating i ~ i ~ i {
+  width: 60%;
+}
+.star-rating i ~ i ~ i ~ i {
+  width: 80%;
+}
+.star-rating i ~ i ~ i ~ i ~ i {
+  width: 100%;
+}
+
+.choice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+span.scale-rating{
+margin: 5px 0 15px;
+    display: inline-block;
+   
+    width: 100%;
+   
+}
+span.scale-rating>label {
+  position:relative;
+    -webkit-appearance: none;
+  outline:0 !important;
+    border: 1px solid grey;
+    height:33px;
+    margin: 0 5px 0 0;
+  width: calc(10% - 7px);
+    float: left;
+  cursor:pointer;
+}
+
+span.scale-rating label {
+  position:relative;
+    -webkit-appearance: none;
+  outline:0 !important;
+    height:33px;
+      
+    margin: 0 5px 0 0;
+  width: calc(10% - 7px);
+    float: left;
+  cursor:pointer;
+}
+
+span.scale-rating input[type=radio] {
+  position:absolute;
+    -webkit-appearance: none;
+  opacity:0;
+  outline:0 !important;
+    /*border-right: 1px solid grey;*/
+    height:33px;
+ 
+    margin: 0 5px 0 0;
+  
+  width: 100%;
+    float: left;
+  cursor:pointer;
+  z-index:3;
+}
+span.scale-rating label:hover{
+background:#fddf8d;
+}
+span.scale-rating input[type=radio]:last-child{
+border-right:0;
+}
+span.scale-rating label input[type=radio]:checked ~ label{
+    -webkit-appearance: none;
+ 
+    margin: 0;
+  background:#fddf8d;
+}
+span.scale-rating label:before
+{
+  content:attr(value);
+    top: 7px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    vertical-align: middle;
+  z-index:2;
+}
+
+form{
+background: rgba(0,0,0,0.5);
+padding: 15px;
+text-align: center;
+}
+
+input[type=submit] {
+  background-color: #8E44AD;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #512E5F;
+}
+</style>
+
+
+</html>

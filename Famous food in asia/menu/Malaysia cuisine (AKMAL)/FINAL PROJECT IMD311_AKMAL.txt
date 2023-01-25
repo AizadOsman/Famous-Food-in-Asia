@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>MALAY FOOD</title>
+</head>
+
+<body background="Food Wallpaper.jpg">
+
+
+<center>
+<a href="#Bottom"Go to the bottom page.html">Go to the bottom page</a><br>
+
+</center>
+
+<hr>
+<marquee direction="right"><i><"WELCOME TO MY PAGE"</i></marquee></h1>
+<hr>
+
+<center>
+
+<font size="30" face="Comic Sans MS" style="bold" color="MAROON" ><b>FINGER LICKING GOOD MALAYSIAN FOODS!</b></u></font><br><p>
+<center>
+
+<hr>
+
+
+<center>
+<img src="Nasi Lemak.jpg" border="3"
+width="450"height="350">
+
+<br>
+
+<center>
+<font size="90" style="bold" color="RED"><u>NASI LEMAK</u></font><br>
+<p style="color"BLACK"><b>No other dish in Malaysia is as famous as nasi lemak. It consists of rice cooked in coconut milk that 
+                        is traditionally served with anchovies, cucumbers, peanuts, and boiled eggs. The dish is rounded up with 
+                        the addition of a spicy chili paste called sambal.</b>
+</center>
+
+<br>
+
+<hr>
+
+<center>
+<img src="Nasi Kandar.jpg" border="3"
+width="450"height="350">
+
+<br>
+
+</center>
+
+<center>
+<font size="90" style="bold" color="RED"><u>NASI KANDAR</u></font><br>
+<p style="color"BLACK"><b>Nasi Kandar is a popular northern Malaysian dish which originates from Penang. It consists of steamed fragrant rice 
+                        and it’s normally served with a variety of curries poured over the rice and side dishes. The rice can be accompanied by 
+                        fried chicken, rendang, lamb, fried fish, fried prawns, fried squid, cubed beef and more.</b>
+</center>
+
+<br>
+
+<hr>
+
+<center>
+<img src="Nasi Dagang.jpg" border="3"
+width="450"height="350">
+
+<br>
+
+
+<center>
+<font size="90" style="bold" color="RED"><u>NASI DAGANG</u></font><br>
+<p style="color"BLACK"><b>Nasi Dagang is a Malaysian and Southern Thai dish. It is made from rice steamed in coconut milk and fenugreek seeds which 
+                        gives it a unique fragrance. Other ingredients that accompany the rice include fish curry, hard-boiled eggs, pickled vegetables
+                        and chicken or beef rendang. This dish can be found along the east coast of Peninsular Malaysia like Kelantan, Terengganu and 
+                        Southern Thailand.</b>
+</center>
+
+<br>
+
+<hr>
+
+<center>
+<img src="Char Kway Teow.jpg" border="3"
+width="450"height="350">
+
+<br>
+
+<center>
+<font size="90" style="bold" color="RED"><u>CHAR KWAY TEOW</u></font><br>
+<p style="color"BLACK"><b>Char Kway Teow is a world-renowned dish that can be found in both Malaysia and Singapore. Char kway teow (flat noodles) are 
+                        stir-fried over a very high heat with light and dark soy sauce, chilli, a small quantity of shrimp paste, whole prawns, 
+                        deshelled cockles, bean sprouts and chopped Chinese chives.Char kway teow is commonly served on a piece of banana leaf on a 
+                        plate, to increase the aroma of the noodles.</b> 
+</center>
+
+<br>
+
+<hr>
+
+<center>
+<img src="Asam Laksa Penang.jpg" border="3"
+width="450"height="350">
+
+<br>
+
+<center>
+<font size="90" style="bold" color="RED"><u>ASAM LAKSA</u></font><br>
+<p style="color"BLACK"><b>Asam Laksa is a spicy fish-based rice noodle soup. It is one of the most famous dishes from Peranakan cuisine.Asam Laksa consists 
+                        of fish, shredded cucumber, onions, pineapple, red chillies, common mint, lettuce, daun kesum (Vietnamese mint) and pink bunga kantan 
+                        (torch ginger). It’s mostly served with thick rice noodles and some prawn paste for flavouring, though some might find this a little 
+                        uncomfortable due to the strong taste.It’s an extremely popular and widespread dish in Malaysia. You can find it everywhere, especially 
+                        on the streets of Penang, one of the 13 states of Malaysia.</b>
+</center>
+
+<br>
+
+<hr>
+
+<center>
+<img src="Cendol.jpg" border="3"
+width="450"height="350">
+
+<br>
+
+<center>
+<font size="90" style="bold" color="RED"><u>CENDOL</u></font><br>
+<p style="color"BLACK"><b>Cendol is quite a common dessert dish and can be found all over Malaysia. These days it is also served with a variety of additional toppings 
+                        such as red beans, grass jelly, corn kernels and glutinous rice. With the most recent trend, cendol can even be found served with durian 
+                        flesh and jack fruit.</b>
+</center>
+
+<br>
+
+
+<h1 id="Bottom"><h1>
+<a href="#top">Back to the top page</a><br>
+
+
+</center>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
