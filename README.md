@@ -1,5 +1,5 @@
 # Famous-Food-in-Asia
-My first attempt at developing a website from scratch using HTML. This website showcases the famous food that can be found in a few Asia countries, like Thailand, Malaysia, Korea, and Japan. This site also featured a Live Clock, which was embedded from the <a href="https://www.timeanddate.com/">timeanddate</a> website. A feedback page was also included on the site as a way to gain feedback to improve the overall website performance. This feedback will be sent through email.
+My first attempt at developing a website from scratch using HTML. This website showcases the famous food that can be found in a few Asia countries, like Thailand, Malaysia, Korea, and Japan. This site also featured a Live Clock, which was embedded from the <a href="https://www.timeanddate.com/" target="_blank">timeanddate</a> website. A feedback page was also included on the site as a way to gain feedback to improve the overall website performance. This feedback will be sent through email.
 
 Guide to access the project:
 1. Download the file "Famous Food in Asia.rar".
